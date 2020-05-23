@@ -13,7 +13,7 @@ Ubuntu에서 다음과 같은 명령어를 통해 설치를 진행할 수 있습
 ```bash
 sudo apt update
 sudo apt install python3-dev python3-pip python3-setuptools
-sudo pip3 install thefuck`
+sudo pip3 install thefuck
 ```
 
 그 후 `eval "$(thefuck --alias)"` 문구를 `.bashrc` 파일에 작성한 후
