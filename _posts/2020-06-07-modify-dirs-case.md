@@ -18,11 +18,15 @@ def match(command):
 def get_new_command(command):
     return "dirs"
 ```
-전에 기존의 fuck 잡아내지 못하는 dirs 명령어를 찾는 코드를 commit 했었습니다.
+전에 기존의 fuck 잡아내지 못하는
 
-dirs 명령어가 뒤에 argument를 가질 수 있다는 것을 인지하지 못했었고
+dirs 명령어를 찾는 코드를 commit 했었습니다.
 
-dirs 명령어가 제대로 들어왔을 때 dirs를 추천하는 것이 아닌
+dirs 명령어가 뒤에 argument를 가질 수 있다는 것을
+
+인지하지 못했었고 dirs 명령어가 제대로 들어왔을 때
+
+dirs를 추천하는 것이 아닌
 
 다른 pool의 명령어를 추천해야한다고 판단했습니다.
 
