@@ -1,6 +1,6 @@
 ---
 title: "이전 dirs 코드 기여 보완 (modify)"
-date: 2020-06-04 23:10:00 -0400
+date: 2020-06-07 21:15:00 -0400
 categories: thefuck
 ---
 
