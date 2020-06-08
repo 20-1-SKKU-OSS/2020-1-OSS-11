@@ -1,7 +1,7 @@
 """Fixes gcc and g++ command mistake
 
 Example:
-gpp foo.c
+g++ foo.c
 -> gcc foo.cpp
 
 """
