@@ -17,4 +17,34 @@ E: Unable to lock the administration directory (/var/lib/dpkg/), are you root?
 sudo apt-get install vim [enter/↑/↓/ctrl+c]
 [sudo] password for nvbn:
 Reading package lists... Done
-...
+```
+
+
+## Team Members
+**권태완** (Team Leader)
+- Student ID : 2015310434
+- E-mail : tae6ae@gmail.com
+- Github ID: tae6ae
+
+**김민철**
+- Student ID : 2019310854
+- E-mail : sdasasq@gmail.com
+- Github ID: sdasasqkim
+
+**안영태**
+- Student ID : 2015313102
+- E-mail : youngtea93@gmail.com
+- Github ID: youngtae47
+
+**인진영**
+- Student ID : 2017311575
+- E-mail : sara_in@naver.com
+- Github ID: injinyoung
+
+**조건희**
+- Student ID : 2018313255
+- E-mail : rafik57@g.skku.edu
+- Github ID: Jokuna
+
+
+## Contribution
