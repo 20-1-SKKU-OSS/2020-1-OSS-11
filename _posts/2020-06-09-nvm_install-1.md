@@ -1,8 +1,7 @@
 ---
-title: "nvm install rules 추가"
+title: "nvm install rules 추가 (1편)"
 date: 2020-06-09 15:30:00 -0400
 categories: thefuck
-author: Jokuna
 ---
 
 ### nvm install 명령어 rules 추가
@@ -76,15 +75,5 @@ nvm install [enter/↑/↓/ctrl+c]
 그러면 다음과 같이 이제 `nvm install` 명령어를 추천해줍니다.(우선적으로는 `nvm` 명령어가 추천되고 그 다음에 `nvm intall` 이 추천됩니다.)
 
 위의 코드관련 커밋은 [여기서](https://github.com/20-1-SKKU-OSS/2020-1-OSS-11/commit/7c218f037b99c9eef829dbf85d395c86001ec935) 확인하실 수 있습니다.
-
-#### 2. `<version>` 입력 시 `<version>`도 추천하도록 보완
-
-이제 `nvm install`을 추천하게 되었지만, `<version>` 인자가 입력시에도 여전히 `nvm install` 만을 추천하는 것을 알 수 있습니다. 
-
-따라서  `<version>` 입력 시
-
-- `nvm install <version>`와 같은 형식으로 추천하도록 합니다.,
-
-- 만약 `<version>`에 적절한 인자가 입력되지 않는 경우에는 예외처리를 할 예정입니다.
 
 &nbsp;&nbsp;&nbsp;&nbsp;
