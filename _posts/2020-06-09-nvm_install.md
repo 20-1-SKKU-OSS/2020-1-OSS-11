@@ -1,6 +1,6 @@
 ---
 title: "nvm install rules 추가"
-date: 2020-06-08 15:30:00 -0400
+date: 2020-06-09 15:30:00 -0400
 categories: thefuck
 author: Jokuna
 ---
