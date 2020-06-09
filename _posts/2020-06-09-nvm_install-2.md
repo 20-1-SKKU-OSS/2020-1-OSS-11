@@ -47,12 +47,10 @@ kuna@server:~$ nvm ins 12.18.0
 
 Node Version Manager (v0.35.3)
 
-Note: <version> refers to any version-like string nvm understands. This includes                                                     :
-  - full or partial version numbers, starting with an optional "v" (0.10, v0.1.2                                                     , v1)
+Note: <version> refers to any version-like string nvm understands. This includes:
+  - full or partial version numbers, starting with an optional "v" (0.10, v0.1.2, v1)
   - default (built-in) aliases: node, stable, unstable, iojs, system
   - custom aliases you define with `nvm alias foo`
-
- Any options that produce colorized output should respect the `--no-colors` option.
 
 ...
 (중략)
