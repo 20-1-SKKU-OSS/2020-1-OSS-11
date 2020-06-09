@@ -1,7 +1,7 @@
 from difflib import SequenceMatcher
 
 def match(command):
-    if SequenceMatcher(None, command.script_parts[0], "free").ratio() == 1:
+    if SequenceMatcher(None, command.script_parts[0], "free").ratio() > 0.6:
         return 1
     else:
         return 0
