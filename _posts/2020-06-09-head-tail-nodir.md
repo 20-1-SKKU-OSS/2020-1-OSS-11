@@ -22,7 +22,7 @@ fuck 명령어를 쳐도 head나 tail을 directory에 하는 경우에 대한 ru
 
 <img width="503" alt="스크린샷 2020-06-09 오후 8 23 32" src="https://user-images.githubusercontent.com/63663300/84142157-456c6b80-aa8f-11ea-92c9-c508ee3babb6.png">
 
-사용자가 입력한 커맨드가 head나 tail로 시작되고 첫번째 아규먼트가 directory인 경우 fuck으로 주어진 rule이 실행됩니다.
+사용자가 입력한 커맨드에 대한 에러 메세지가 head나 tail로 시작되고 첫번째 아규먼트가 directory인 경우 fuck으로 주어진 rule이 실행됩니다.
 
 단순히 head, tail을 ls 명령어로 바꿔줍니다.
 
