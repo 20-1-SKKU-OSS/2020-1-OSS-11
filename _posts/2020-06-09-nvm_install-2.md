@@ -8,7 +8,7 @@ categories: thefuck
 
 전편 포스트는 [여기서](https://jokuna.github.io/2020-1-OSS-11/thefuck/nvm_install-1/) 확인하실 수 있습니다.
 
-#### `<version>` 입력 시 `<version>`도 추천하도록 보완
+#### 2. `<version>` 입력 시 `<version>`도 추천하도록 보완
 
 이제 `nvm install`을 추천하게 되었지만, `<version>` 인자가 입력시에도 여전히 `nvm install` 만을 추천합니다. 
 
