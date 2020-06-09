@@ -76,4 +76,6 @@ nvm install [enter/↑/↓/ctrl+c]
 
 위의 코드관련 커밋은 [여기서](https://github.com/20-1-SKKU-OSS/2020-1-OSS-11/commit/7c218f037b99c9eef829dbf85d395c86001ec935) 확인하실 수 있습니다.
 
+또한 더 개선한 코드 관련 포스트는 [여기서](https://jokuna.github.io/2020-1-OSS-11/thefuck/nvm_install-2/) 확인하실 수 있습니다.
+
 &nbsp;&nbsp;&nbsp;&nbsp;
