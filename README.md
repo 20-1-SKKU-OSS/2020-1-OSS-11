@@ -1,5 +1,7 @@
 # 2020-1-OSS-11
 ## Project : The Fuck
+**Original project** : https://github.com/nvbn/thefuck
+
 *The Fuck* is a magnificent app, inspired by a [@liamosaur](https://twitter.com/liamosaur/)
 [tweet](https://twitter.com/liamosaur/status/506975850596536320),
 that corrects errors in previous console commands.
@@ -48,3 +50,83 @@ Reading package lists... Done
 
 
 ## Contribution
+**Add New Rules**
+- "nvm" command rule
+- "gcc" command rule
+- "nvm install" command rule
+- "head" and "tail" command rule
+- "cat" command rule
+
+**Fix Bug Issues**
+- Resolve an issue about "dirs" command
+- Modification code for "dirs" command
+- Resolve an issue about "free" command
+
+## Static Page
+https://20-1-skku-oss.github.io/2020-1-OSS-11/
+
+## Requirements
+
+- python (3.4+)
+- pip
+- python-dev
+
+## Installation
+
+On OS X, you can install *The Fuck* via [Homebrew][homebrew] (or via [Linuxbrew][linuxbrew] on Linux):
+
+```bash
+brew install thefuck
+```
+
+On Ubuntu / Mint, install *The Fuck* with the following commands:
+```bash
+sudo apt update
+sudo apt install python3-dev python3-pip python3-setuptools
+sudo pip3 install thefuck
+```
+
+On FreeBSD, install *The Fuck* with the following commands:
+```bash
+pkg install thefuck
+```
+
+On ChromeOS, install *The Fuck* using [chromebrew](https://github.com/skycocker/chromebrew) with the following command:
+```bash
+crew install thefuck
+```
+
+On other systems, install *The Fuck*  by using `pip`:
+
+```bash
+pip install thefuck
+```
+
+[Alternatively, you may use an OS package manager (OS X, Ubuntu, Arch).](https://github.com/nvbn/thefuck/wiki/Installation)
+
+<a href='#manual-installation' name='manual-installation'>#</a>
+It is recommended that you place this command in your `.bash_profile`,
+`.bashrc`, `.zshrc` or other startup script:
+
+```bash
+eval $(thefuck --alias)
+# You can use whatever you want as an alias, like for Mondays:
+eval $(thefuck --alias FUCK)
+```
+
+[Or in your shell config (Bash, Zsh, Fish, Powershell, tcsh).](https://github.com/nvbn/thefuck/wiki/Shell-aliases)
+
+Changes are only available in a new shell session. To make changes immediately
+available, run `source ~/.bashrc` (or your shell config file like `.zshrc`).
+
+To run fixed commands without confirmation, use the `--yeah` option (or just `-y` for short, or `--hard` if you're especially frustrated):
+
+```bash
+fuck --yeah
+```
+
+To fix commands recursively until succeeding, use the `-r` option:
+
+```bash
+fuck -r
+```
