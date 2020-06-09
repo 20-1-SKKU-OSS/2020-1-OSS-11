@@ -72,7 +72,7 @@ nvm install [enter/↑/↓/ctrl+c]
 ```
 
 
-그러면 다음과 같이 이제 `nvm install` 명령어를 추천해줍니다.(우선적으로는 `nvm` 명령어가 추천되고 그 다음에 `nvm intall` 이 추천됩니다.)
+그러면 다음과 같이 이제 `nvm install` 명령어를 추천해줍니다.(우선적으로는 `nvm` 명령어가 추천되고 그 다음에 `nvm install` 이 추천됩니다.)
 
 위의 코드관련 커밋은 [여기서](https://github.com/20-1-SKKU-OSS/2020-1-OSS-11/commit/7c218f037b99c9eef829dbf85d395c86001ec935) 확인하실 수 있습니다.
 
