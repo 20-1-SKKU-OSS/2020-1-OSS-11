@@ -44,8 +44,6 @@ Reading package lists... Done
 - Github ID: injinyoung
 
 **조건희**
-- Student ID : 2018313255
-- E-mail : rafik57@g.skku.edu
 - Github ID: Jokuna
 
 
